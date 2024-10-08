@@ -129,13 +129,16 @@ struct AddProgressView: View {
                         }
                         
                         if inProgress {
+                            BlurView(style: .systemUltraThinMaterialDark)
+                                .frame(width: .infinity, height: .infinity)
+                                .opacity(0.92)
+                                .ignoresSafeArea()
                             LottieView(name: animationName, loopMode: .loop, animationSpeed: 2)
                                 .scaleEffect(0.5)
                                 //.allowsHitTesting(false)
                             Text("Cargando...")
                                 .font(Font.custom("Roboto-Bold", size: 20))
                                 .padding(.top, 165.0)
-                            //blur view
                         }
 
                     }
