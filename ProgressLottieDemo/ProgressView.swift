@@ -131,20 +131,19 @@ struct AddProgressView: View {
                         if inProgress {
                             LottieView(name: animationName, loopMode: .loop, animationSpeed: 2)
                                 .scaleEffect(0.5)
-                                //.frame(width: 50, height: 50, alignment: .center)
                                 //.allowsHitTesting(false)
+                            Text("Cargando...")
+                                .font(Font.custom("Roboto-Bold", size: 20))
+                                .padding(.top, 165.0)
+                            //blur view
                         }
 
                     }
                     //.frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
                     .disabled(inProgress)
                     .navigationTitle("Custom Progress")
-
                 }
-
             }
-        
-        
     }
 }
 

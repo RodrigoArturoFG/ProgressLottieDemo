@@ -23,6 +23,8 @@
 		7EB50F562C94E23300483A59 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7EB50F552C94E23300483A59 /* Lottie */; };
 		7EB50F592C94E2B700483A59 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB50F582C94E2B700483A59 /* Constants.swift */; };
 		7EB50F5B2C94E30A00483A59 /* Green Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EB50F5A2C94E30A00483A59 /* Green Loading.json */; };
+		7ED36F412CB5B29A00EB298C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ED36F3F2CB5B29900EB298C /* Roboto-Bold.ttf */; };
+		7ED36F422CB5B29A00EB298C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ED36F402CB5B29900EB298C /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		7EB50F522C94E1F000483A59 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		7EB50F582C94E2B700483A59 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7EB50F5A2C94E30A00483A59 /* Green Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Green Loading.json"; sourceTree = "<group>"; };
+		7ED36F3F2CB5B29900EB298C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		7ED36F402CB5B29900EB298C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		7ED36F432CB5B2C300EB298C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +80,13 @@
 		7EB50F412C94E11C00483A59 /* ProgressLottieDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7ED36F432CB5B2C300EB298C /* Info.plist */,
 				7EB50F422C94E11C00483A59 /* ProgressLottieDemoApp.swift */,
 				7EB50F502C94E17400483A59 /* ProgressView.swift */,
 				7EB50F522C94E1F000483A59 /* LottieView.swift */,
 				7E32E4CA2CB59E27000CD68B /* BlurView.swift */,
 				7EB50F572C94E27900483A59 /* Lottie Files */,
+				7ED36F3E2CB5B27A00EB298C /* Fonts */,
 				7EB50F462C94E11E00483A59 /* Assets.xcassets */,
 				7EB50F482C94E11E00483A59 /* Preview Content */,
 			);
@@ -108,6 +115,15 @@
 				7EB50F582C94E2B700483A59 /* Constants.swift */,
 			);
 			path = "Lottie Files";
+			sourceTree = "<group>";
+		};
+		7ED36F3E2CB5B27A00EB298C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7ED36F3F2CB5B29900EB298C /* Roboto-Bold.ttf */,
+				7ED36F402CB5B29900EB298C /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +194,9 @@
 				7E32E4D52CB5A2A6000CD68B /* Loading Animation 3.json in Resources */,
 				7EB50F4A2C94E11E00483A59 /* Preview Assets.xcassets in Resources */,
 				7E32E4D92CB5A38A000CD68B /* Circle Loading Animation.json in Resources */,
+				7ED36F412CB5B29A00EB298C /* Roboto-Bold.ttf in Resources */,
 				7E32E4CF2CB5A142000CD68B /* Circle Animation 2.json in Resources */,
+				7ED36F422CB5B29A00EB298C /* Roboto-Regular.ttf in Resources */,
 				7EB50F5B2C94E30A00483A59 /* Green Loading.json in Resources */,
 				7E32E4D12CB5A1C0000CD68B /* Loading Animation.json in Resources */,
 				7E32E4CD2CB5A0CC000CD68B /* Circle Animation.json in Resources */,
@@ -329,6 +347,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ProgressLottieDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProgressLottieDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,6 +376,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ProgressLottieDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProgressLottieDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
