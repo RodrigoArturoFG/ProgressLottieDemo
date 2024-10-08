@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E32E4C92CB599FF000CD68B /* Three Lines.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32E4C82CB599FF000CD68B /* Three Lines.json */; };
+		7E32E4CB2CB59E27000CD68B /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32E4CA2CB59E27000CD68B /* BlurView.swift */; };
+		7E32E4CD2CB5A0CC000CD68B /* Circle Animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32E4CC2CB5A0CC000CD68B /* Circle Animation.json */; };
+		7E32E4CF2CB5A142000CD68B /* Circle Animation 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32E4CE2CB5A142000CD68B /* Circle Animation 2.json */; };
+		7E32E4D12CB5A1C0000CD68B /* Loading Animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32E4D02CB5A1C0000CD68B /* Loading Animation.json */; };
+		7E32E4D32CB5A235000CD68B /* Loading Animation 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32E4D22CB5A235000CD68B /* Loading Animation 2.json */; };
+		7E32E4D52CB5A2A6000CD68B /* Loading Animation 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32E4D42CB5A2A6000CD68B /* Loading Animation 3.json */; };
+		7E32E4D92CB5A38A000CD68B /* Circle Loading Animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32E4D82CB5A38A000CD68B /* Circle Loading Animation.json */; };
 		7EB50F432C94E11C00483A59 /* ProgressLottieDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB50F422C94E11C00483A59 /* ProgressLottieDemoApp.swift */; };
 		7EB50F472C94E11E00483A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB50F462C94E11E00483A59 /* Assets.xcassets */; };
 		7EB50F4A2C94E11E00483A59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB50F492C94E11E00483A59 /* Preview Assets.xcassets */; };
@@ -18,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E32E4C82CB599FF000CD68B /* Three Lines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Three Lines.json"; sourceTree = "<group>"; };
+		7E32E4CA2CB59E27000CD68B /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		7E32E4CC2CB5A0CC000CD68B /* Circle Animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Circle Animation.json"; sourceTree = "<group>"; };
+		7E32E4CE2CB5A142000CD68B /* Circle Animation 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Circle Animation 2.json"; sourceTree = "<group>"; };
+		7E32E4D02CB5A1C0000CD68B /* Loading Animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Loading Animation.json"; sourceTree = "<group>"; };
+		7E32E4D22CB5A235000CD68B /* Loading Animation 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Loading Animation 2.json"; sourceTree = "<group>"; };
+		7E32E4D42CB5A2A6000CD68B /* Loading Animation 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Loading Animation 3.json"; sourceTree = "<group>"; };
+		7E32E4D82CB5A38A000CD68B /* Circle Loading Animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Circle Loading Animation.json"; sourceTree = "<group>"; };
 		7EB50F3F2C94E11C00483A59 /* ProgressLottieDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressLottieDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB50F422C94E11C00483A59 /* ProgressLottieDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLottieDemoApp.swift; sourceTree = "<group>"; };
 		7EB50F462C94E11E00483A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +78,7 @@
 				7EB50F422C94E11C00483A59 /* ProgressLottieDemoApp.swift */,
 				7EB50F502C94E17400483A59 /* ProgressView.swift */,
 				7EB50F522C94E1F000483A59 /* LottieView.swift */,
+				7E32E4CA2CB59E27000CD68B /* BlurView.swift */,
 				7EB50F572C94E27900483A59 /* Lottie Files */,
 				7EB50F462C94E11E00483A59 /* Assets.xcassets */,
 				7EB50F482C94E11E00483A59 /* Preview Content */,
@@ -80,6 +97,13 @@
 		7EB50F572C94E27900483A59 /* Lottie Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E32E4D82CB5A38A000CD68B /* Circle Loading Animation.json */,
+				7E32E4D42CB5A2A6000CD68B /* Loading Animation 3.json */,
+				7E32E4D22CB5A235000CD68B /* Loading Animation 2.json */,
+				7E32E4D02CB5A1C0000CD68B /* Loading Animation.json */,
+				7E32E4CE2CB5A142000CD68B /* Circle Animation 2.json */,
+				7E32E4CC2CB5A0CC000CD68B /* Circle Animation.json */,
+				7E32E4C82CB599FF000CD68B /* Three Lines.json */,
 				7EB50F5A2C94E30A00483A59 /* Green Loading.json */,
 				7EB50F582C94E2B700483A59 /* Constants.swift */,
 			);
@@ -150,9 +174,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E32E4D32CB5A235000CD68B /* Loading Animation 2.json in Resources */,
+				7E32E4D52CB5A2A6000CD68B /* Loading Animation 3.json in Resources */,
 				7EB50F4A2C94E11E00483A59 /* Preview Assets.xcassets in Resources */,
+				7E32E4D92CB5A38A000CD68B /* Circle Loading Animation.json in Resources */,
+				7E32E4CF2CB5A142000CD68B /* Circle Animation 2.json in Resources */,
 				7EB50F5B2C94E30A00483A59 /* Green Loading.json in Resources */,
+				7E32E4D12CB5A1C0000CD68B /* Loading Animation.json in Resources */,
+				7E32E4CD2CB5A0CC000CD68B /* Circle Animation.json in Resources */,
 				7EB50F472C94E11E00483A59 /* Assets.xcassets in Resources */,
+				7E32E4C92CB599FF000CD68B /* Three Lines.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +196,7 @@
 			files = (
 				7EB50F592C94E2B700483A59 /* Constants.swift in Sources */,
 				7EB50F432C94E11C00483A59 /* ProgressLottieDemoApp.swift in Sources */,
+				7E32E4CB2CB59E27000CD68B /* BlurView.swift in Sources */,
 				7EB50F512C94E17400483A59 /* ProgressView.swift in Sources */,
 				7EB50F532C94E1F000483A59 /* LottieView.swift in Sources */,
 			);
